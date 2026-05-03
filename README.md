@@ -92,15 +92,7 @@ docker-compose up --build
 ## Environment Variables
 
 ### Backend
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `DATABASE_URL` | `jdbc:postgresql://localhost:2109/ethara` | PostgreSQL JDBC URL |
-| `DATABASE_USERNAME` | `postgres` | DB username |
-| `DATABASE_PASSWORD` | `2109` | DB password |
-| `JWT_SECRET` | (64-char hex) | JWT signing secret |
-| `JWT_EXPIRATION` | `86400000` | Token expiry (ms, default 24h) |
-| `CORS_ORIGINS` | `http://localhost:5173` | Comma-separated allowed origins |
-| `PORT` | `8080` | Server port |
+
 
 ### Frontend
 | Variable | Description |
